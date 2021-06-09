@@ -1,0 +1,104 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  transition-duration: 200ms;
+  transition-timing-function: ease-out;
+}
+
+body{
+  background-color: rgb(43, 43, 43);
+}
+
+.App{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  flex-direction: column;
+  width: 100vw;
+  padding: 50px;
+}
+
+.Card{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 200px;
+  padding: 30px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  width: 400px;
+  margin: 10px;
+  flex-grow: 1;
+}
+
+.footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.id{
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5px;
+  background-color: rgb(83, 145, 209);
+  border-radius: 50%;
+}
+
+.id p{
+  color: white;
+  font-size: 0.8em;
+  font-weight: 700;
+}
+
+.cardContainer{
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 50px;
+}
+
+.spinnerContainer{
+  width: 100vw;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clock{
+  color: white;
+}
+
+.logo{
+  color: white;
+}
+
+.appHeader{
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  padding: 0 60px 0 60px;
+  height: 10vh;
+}
+
+.animation-enter{
+  opacity: 0.001;
+}
+
+.animation-enter-active{
+  opacity: 1;
+}
+
+.animation-exit{
+  opacity: 1;
+}
+
+.animation-exit-active{
+  opacity: 0.001;
+}
